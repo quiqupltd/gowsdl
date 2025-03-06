@@ -2,6 +2,8 @@ module github.com/hooklift/gowsdl
 
 go 1.23
 
+replace github.com/hooklift/gowsdl => ./
+
 require github.com/stretchr/testify v1.10.0
 
 require (
